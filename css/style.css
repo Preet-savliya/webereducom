@@ -1,0 +1,914 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  z-index: 1;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* ........................... Track ..................................... */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+/* ........................... Handle ........................... */
+::-webkit-scrollbar-thumb {
+  background: rgb(195, 195, 195);
+}
+
+/* ........................... navigation bar or header .................. */
+.navbar {
+  background-color: white;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.162);
+  height: 60px;
+}
+
+.container-fluid .navbar-brand img {
+  height: 30px;
+}
+
+.offcanvas-title {
+  font-weight: 500;
+  color: #a54cd9;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.chat-button {
+  border: 2px solid #a54cd9;
+  color: #434343;
+  padding: 6px 24px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.chat-button .fa {
+  color: #a54cd9;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+}
+
+.navbar .navbar-toggler:focus,
+.navbar .btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.offcanvas-body .navbar-nav .nav-item .nav-link {
+  color: #434343;
+  font-weight: 500;
+  position: relative;
+}
+
+.offcanvas-body .navbar-nav .nav-item .nav-link:hover,
+.offcanvas-body .navbar-nav .nav-item .nav-link.active {
+  color: #a54cd9;
+}
+
+.offcanvas-body .navbar-nav .dropdown .dropdown-menu {
+  margin-top: 9px;
+  border-top: 0;
+  border-bottom: 4px solid #a54cd9;
+  border-radius: 0;
+}
+
+/* .................. navbar ends here .................................... */
+
+/* .................. home section starts here ........................... */
+.home {
+  background: rgb(0, 0, 0, 0.6) url(/images/logo/background.png);
+  background-size: cover;
+  background-blend-mode: darken;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.home .home-content h1 {
+  color: #fff;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.home .home-content p {
+  color: rgb(255, 208, 0);
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+.home .home-content a {
+  background-color: #fff;
+  padding: 10px 24px;
+  text-decoration: none;
+  color: #434343;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+/* .................. home section ends here ........................... */
+
+/* .................. about section ends here ........................... */
+.about {
+  padding: 90px 0;
+}
+
+.about .heading h1 {
+  text-align: center;
+  font-weight: bolder;
+  color: #a54cd9;
+}
+
+.about .aboutus h1 {
+  font-weight: bolder;
+  color: #434343;
+}
+
+.about .image {
+  display: flex;
+  justify-content: center;
+}
+
+.about img {
+  height: 400px;
+}
+
+.about .aboutus p {
+  color: #434343;
+  text-align: justify;
+}
+
+.about .aboutus span {
+  font-weight: bold;
+}
+
+.about .box .row h1 {
+  font-weight: bolder;
+  color: #434343;
+}
+.about .box p {
+  text-align: justify;
+}
+
+/* .................. about section ends here ........................... */
+
+.counterup {
+  background-color: #eaeaea;
+  padding: 40px 8%;
+}
+
+.counterup .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.counterup .row .col {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-bottom: 3px solid #a54cd9;
+  border-top: 3px solid #a54cd9;
+  padding: 20px;
+}
+
+h2,
+span {
+  display: inline-block;
+  margin: 0px 1px;
+  color: #434343;
+}
+
+.counterup .row .col h2 {
+  font-size: 30px;
+}
+
+.counterup .row .col .fa,
+.counterup .row .col .fa-brands {
+  font-size: 20px;
+  color: #a54cd9;
+}
+/* .................. service section starts here ......................... */
+.service {
+  padding: 90px 5%;
+}
+
+.service .box .heading h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 38px;
+  color: #a54cd9;
+}
+
+.service .service-category {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.service .service-category .box1 img {
+  height: 300px;
+}
+
+.service .service-category .box2 h1 {
+  font-weight: bold;
+  color: #434343;
+}
+
+.service .service-category .box2 a {
+  text-decoration: none;
+  background-color: #a54cd9;
+  padding: 8px 24px;
+  color: white;
+  border-radius: 5px;
+}
+
+/* .................. service section ends here ........................... */
+/* .................. testimonial section starts here ..................... */
+.testimonial {
+  min-height: 60vh;
+  background-color: #eaeaea;
+}
+
+#testimonial {
+  padding: 90px 5%;
+}
+
+.work .sub-heading h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 38px;
+  color: #a54cd9;
+}
+
+.testimonial-category .card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.testimonial-category .card-container .card {
+  width: 350px;
+  height: 100%;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  /* border: 2px solid #a54cd9; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.testimonial-category .card-container .card img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+  border-radius: 8px;
+}
+.testimonial-category .card-container .card img:hover {
+  scale: 0.9;
+}
+
+.testimonial-category .card-container .card p {
+  font-size: 24px;
+  color: #a54cd9;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 16px;
+}
+
+#testimonial .work .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#testimonial .work .btn .btn1 {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px 24px;
+  background-color: #a54cd9;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+#testimonial .work .btn .btn1:focus {
+  outline: none;
+}
+
+/* .................. testimonial section ends here ..................... */
+/* .................. website section starts here ................. */
+.website {
+  min-height: 60vh;
+}
+
+#website {
+  padding: 90px 5%;
+}
+
+.work .sub-heading h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 38px;
+  color: #a54cd9;
+}
+
+.website-category .card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.website-category .card-container .card {
+  width: 350px;
+  height: 100%;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  /* border: 2px solid #a54cd9; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.website-category .card-container .card img {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.website-category .card-container .card img:hover {
+  scale: 0.9;
+}
+
+.website-category .card-container .card p {
+  font-size: 24px;
+  color: #a54cd9;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.website-category .card-container .card .btn1 {
+  text-decoration: none;
+  text-align: center;
+  background-color: #a54cd9;
+  color: white;
+  padding: 8px 24px;
+}
+
+#website .work .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#website .work .btn .btn1 {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px 24px;
+  background-color: #a54cd9;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+#website .work .btn .btn1:focus {
+  outline: none;
+}
+
+.website1 {
+  min-height: 60vh;
+}
+
+#website1 {
+  padding: 90px 5%;
+}
+
+.work .sub-heading h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 38px;
+  color: #a54cd9;
+}
+
+.work .sub-heading .h1 {
+  font-weight: bolder;
+  font-size: 30px;
+  color: #434343;
+}
+
+.website1-category .card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.website1-category .card-container .card {
+  width: 340px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  /* border: 2px solid #a54cd9; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.website1-category .card-container .card h3 {
+  color: #a54cd9;
+  font-weight: 600;
+  text-align: center;
+}
+
+.website1-category .card-container .card p {
+  font-size: 16px;
+  color: #a54cd9;
+  font-weight: 500;
+  margin: 4px 10px;
+}
+
+.website1-category .card-container .card p b {
+  color: #434343;
+}
+
+.website1-category .card-container .card .p1 {
+  text-align: center;
+  color: #434343;
+}
+
+.website1-category .card-container .card p span {
+  font-size: 30px;
+  text-align: center;
+}
+
+.website1-category .card-container .card .p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.website1-category .card-container .card .p a {
+  font-size: 18px;
+  background-color: #a54cd9;
+  padding: 5px 24px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.website1-category .card-container .card p .fa-check {
+  font-size: 24px;
+}
+
+.website1-category .card-container .card .btn1 {
+  text-decoration: none;
+  text-align: center;
+  background-color: #a54cd9;
+  color: white;
+  padding: 8px 24px;
+}
+
+#website1 .work .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#website1 .work .btn .btn1 {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px 24px;
+  background-color: #a54cd9;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+#website1 .work .btn .btn1:focus {
+  outline: none;
+}
+/* .................. website section ends here ................... */
+
+/* .................. payment section starts here ................. */
+
+.payment {
+  min-height: 60vh;
+}
+
+#payment {
+  padding: 90px 5%;
+}
+
+.work .sub-heading h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 38px;
+  color: #a54cd9;
+}
+
+.payment .payment-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment .payment-category .logo img {
+  width: 400px;
+  height: 400px;
+}
+
+.payment .payment-category .payment-head {
+  background-color: whitesmoke;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.162);
+  width: 380px;
+  height: 450px;
+  padding: 16px;
+}
+
+.payment .payment-category .payment-head .payment-option .sub-heading h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #a54cd9;
+  text-align: center;
+}
+
+.payment .payment-category .payment-head .payment1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.payment .payment-category .payment-option .pay1 .image {
+  background-color: white;
+  border: 2px solid #434343;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.payment .payment-category .payment-option .pay1 .image img {
+  width: 60px;
+  height: 60px;
+  margin: 8px;
+  border-radius: 50px;
+}
+
+.payment .payment-category .payment-option .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a54cd9;
+}
+
+.payment .payment-category .payment-option .btn a {
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 24px;
+  color: white;
+  border-radius: 5px;
+}
+
+/* .................. payment section end here ................. */
+/* .................. team section starts here ..................... */
+.team {
+  min-height: 60vh;
+}
+
+#team {
+  padding: 90px 5%;
+}
+
+.box .heading h1 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 38px;
+  color: #a54cd9;
+}
+
+.team-category .card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.team-category .card-container .card {
+  width: 350px;
+  height: 100%;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  /* border: 2px solid #a54cd9; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.team-category .card-container .card a {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.team-category .card-container .card img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.team-category .card-container .card h1 {
+  color: #a54cd9;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.team-category .card-container .card p {
+  color: #434343;
+  font-weight: 500;
+  text-align: center;
+}
+
+#team .box .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#team .box .btn .btn1 {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px 24px;
+  background-color: #a54cd9;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+#team .box .btn .btn1:focus {
+  outline: none;
+}
+
+/* .................. team section ends here ..................... */
+
+/* .................. contact section starts here ..................... */
+/* contact page  */
+
+#contact {
+  background-color: #eaeaea;
+  padding: 90px 2%;
+}
+
+#contact .heading h1 {
+  text-align: center;
+  font-weight: bolder;
+  color: #a54cd9;
+}
+
+#contact .p1 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  color: #434343;
+}
+
+#contact .p2 {
+  text-align: center;
+  color: #434343;
+}
+
+#contact .image {
+  display: flex;
+  justify-content: center;
+}
+
+#contact .image img {
+  height: 400px;
+}
+
+.container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .content .left-side {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+.content .left-side::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #afafb6;
+}
+.content .left-side .details {
+  margin: 14px;
+  text-align: center;
+}
+.content .left-side .details i {
+  font-size: 30px;
+  color: #a54cd9;
+  margin-bottom: 10px;
+}
+.content .left-side .details .topic {
+  font-size: 18px;
+  font-weight: 500;
+}
+.content .left-side .details .text-one,
+.content .left-side .details .text-two {
+  font-size: 14px;
+  color: #434343;
+}
+.container .content .right-side {
+  width: 75%;
+  margin-left: 75px;
+}
+
+.content .right-side .topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #a54cd9;
+}
+.right-side .input-box {
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side .message-box {
+  min-height: 110px;
+}
+.right-side .input-box textarea {
+  padding-top: 6px;
+}
+.right-side .button {
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="submit"] {
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 6px;
+  background: #a54cd9;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* .................. contact section ends here ..................... */
+/* .................. footer section starts here ..................... */
+/* footer section start here */
+
+footer {
+  height: fit-content;
+}
+
+footer .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+footer .container-fluid .card {
+  padding: 10px;
+  background: transparent;
+  color: #a54cd9;
+  border: none;
+}
+
+footer .container-fluid .card .heading h2 {
+  font-weight: bolder;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+footer .container-fluid .card .card-box .para p {
+  text-align: justify;
+  color: #434343;
+}
+
+footer .container-fluid .card .card-box .course-link li,
+footer .container-fluid .card .card-box .link li {
+  list-style-type: none;
+}
+
+footer .container-fluid .card .card-box .course-link li a,
+footer .container-fluid .card .card-box .link li a {
+  color: #434343;
+  text-decoration: none;
+}
+
+footer .container-fluid .card .card-box .course-link li a:hover,
+footer .container-fluid .card .card-box .link li a:hover {
+  text-decoration: underline;
+}
+
+footer .container-fluid .card .card-box .social-icons a {
+  text-decoration: none;
+}
+
+footer .container-fluid .card .card-box .social-icons .fa-brands {
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  background-color: #a54cd9;
+}
+
+footer .container-fluid .card .card-box .social-icons .fa-telegram,
+footer .container-fluid .card .card-box .social-icons .fa-youtube,
+footer .container-fluid .card .card-box .social-icons .fa-instagram,
+footer .container-fluid .card .card-box .social-icons .fa-linkedin {
+  color: #ffffff;
+}
+
+.copyright {
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  border-top: 2px solid #a2a2a2;
+  color: #434343;
+}
+
+.copyright .fa {
+  color: #a54cd9;
+}
+
+.copyright .name {
+  color: #a54cd9;
+  font-weight: bold;
+}
+
+.scrollToTop-btn {
+  z-index: 999;
+  position: fixed;
+  background: #a54cd9;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  right: 0;
+  bottom: 30px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 25px;
+  cursor: pointer;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.scrollToTop-btn.active {
+  right: 20px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* .................. footer section ends here ..................... */

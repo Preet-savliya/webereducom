@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 100vh;
+  z-index: 1;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* ........................... Track ..................................... */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+
+/* ........................... Handle ........................... */
+::-webkit-scrollbar-thumb {
+  background: rgb(195, 195, 195);
+}
+
+/* ........................... navigation bar or header .................. */
+.navbar {
+  background-color: white;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.162);
+  height: 60px;
+}
+
+.container-fluid .navbar-brand img {
+  height: 30px;
+}
+
+.offcanvas-title {
+  font-weight: 500;
+  color: #a54cd9;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.chat-button {
+  border: 2px solid #a54cd9;
+  color: #434343;
+  padding: 6px 24px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.chat-button .fa {
+  color: #a54cd9;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+}
+
+.navbar .navbar-toggler:focus,
+.navbar .btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.offcanvas-body .navbar-nav .nav-item .nav-link {
+  color: #434343;
+  font-weight: 500;
+  position: relative;
+}
+
+.offcanvas-body .navbar-nav .nav-item .nav-link:hover,
+.offcanvas-body .navbar-nav .nav-item .nav-link.active {
+  color: #a54cd9;
+}
+
+.offcanvas-body .navbar-nav .dropdown .dropdown-menu {
+  margin-top: 9px;
+  border-top: 0;
+  border-bottom: 4px solid #a54cd9;
+  border-radius: 0;
+}
+
+/* .................. navbar ends here .................................... */
+/* .................. basic section starts here ..................... */
+/* basic page  */
+
+#basic {
+  background-color: #eaeaea;
+  padding: 90px 2%;
+}
+
+#basic .heading h1 {
+  text-align: center;
+  font-weight: bolder;
+  color: #a54cd9;
+}
+
+#basic .p1 {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  color: #434343;
+}
+
+#basic .p2 {
+  text-align: center;
+  color: #434343;
+}
+
+#basic .image {
+  display: flex;
+  justify-content: center;
+}
+
+#basic .image img {
+  height: 400px;
+}
+
+.container .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .content .right-side {
+  width: 100%;
+}
+
+.content .right-side .topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #a54cd9;
+}
+.right-side .input-box {
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.right-side .message-box {
+  min-height: 110px;
+}
+.right-side .input-box textarea {
+  padding-top: 6px;
+}
+.right-side .button {
+  display: inline-block;
+  margin-top: 12px;
+}
+.right-side .button input[type="submit"] {
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 8px 24px;
+  border-radius: 6px;
+  background: #a54cd9;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* .................. basic section ends here ..................... */
+/* .................. footer section starts here ..................... */
+/* footer section start here */
+
+footer {
+  height: fit-content;
+}
+
+footer .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+footer .container-fluid .card {
+  padding: 10px;
+  background: transparent;
+  color: #a54cd9;
+  border: none;
+}
+
+footer .container-fluid .card .heading h2 {
+  font-weight: bolder;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+footer .container-fluid .card .card-box .para p {
+  text-align: justify;
+  color: #434343;
+}
+
+footer .container-fluid .card .card-box .course-link li,
+footer .container-fluid .card .card-box .link li {
+  list-style-type: none;
+}
+
+footer .container-fluid .card .card-box .course-link li a,
+footer .container-fluid .card .card-box .link li a {
+  color: #434343;
+  text-decoration: none;
+}
+
+footer .container-fluid .card .card-box .course-link li a:hover,
+footer .container-fluid .card .card-box .link li a:hover {
+  text-decoration: underline;
+}
+
+footer .container-fluid .card .card-box .social-icons a {
+  text-decoration: none;
+}
+
+footer .container-fluid .card .card-box .social-icons .fa-brands {
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  background-color: #a54cd9;
+}
+
+footer .container-fluid .card .card-box .social-icons .fa-telegram,
+footer .container-fluid .card .card-box .social-icons .fa-youtube,
+footer .container-fluid .card .card-box .social-icons .fa-instagram,
+footer .container-fluid .card .card-box .social-icons .fa-linkedin {
+  color: #ffffff;
+}
+
+.copyright {
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  border-top: 2px solid #a2a2a2;
+  color: #434343;
+}
+
+.copyright .fa {
+  color: #a54cd9;
+}
+
+.copyright .name {
+  color: #a54cd9;
+  font-weight: bold;
+}
+
+.scrollToTop-btn {
+  z-index: 999;
+  position: fixed;
+  background: #a54cd9;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  right: 0;
+  bottom: 30px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 25px;
+  cursor: pointer;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.scrollToTop-btn.active {
+  right: 20px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* .................. footer section ends here ..................... */
